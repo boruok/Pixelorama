@@ -164,7 +164,6 @@ expand_margin_top = 2.0
 expand_margin_bottom = 2.0
 
 [sub_resource type="StreamTexture" id=18]
-load_path = "res://.import/hsplit.png-982787a0fbb16ed868512e0fe24fb6d7.stex"
 
 [sub_resource type="StyleBoxFlat" id=19]
 bg_color = Color( 0.109804, 0.0862745, 0.0862745, 0 )
@@ -278,7 +277,6 @@ border_width_right = 2
 border_color = Color( 0.321569, 0.321569, 0.321569, 1 )
 
 [sub_resource type="StreamTexture" id=31]
-load_path = "res://.import/vsplit.png-e9d4a9d3ba3096e1627a4854187f6824.stex"
 
 [sub_resource type="StyleBoxFlat" id=32]
 bg_color = Color( 0.176471, 0.176471, 0.176471, 1 )

@@ -1699,6 +1699,7 @@ columns = 6
 [node name="SplashDialog" parent="." instance=ExtResource( 27 )]
 
 [node name="CreateNewImage" parent="." instance=ExtResource( 28 )]
+window_title = "Please Confirm..."
 
 [node name="OpenSprite" type="FileDialog" parent="."]
 margin_right = 515.0
@@ -1708,8 +1709,8 @@ resizable = true
 mode = 0
 access = 2
 filters = PoolStringArray( "*.pxo ; Pixelorama Project" )
-current_dir = "C:/Users/Overloaded/Dropbox/Orama Founding Members/εταιρικα αρχεια/Godot Projects/Pixelorama"
-current_path = "C:/Users/Overloaded/Dropbox/Orama Founding Members/εταιρικα αρχεια/Godot Projects/Pixelorama/"
+current_dir = "C:/Users/boruok/Documents/GitHub/Pixelorama"
+current_path = "C:/Users/boruok/Documents/GitHub/Pixelorama/"
 
 [node name="SaveSprite" type="FileDialog" parent="."]
 anchor_left = 0.5
@@ -1724,21 +1725,26 @@ window_title = "Save Sprite as .pxo"
 resizable = true
 access = 2
 filters = PoolStringArray( "*.pxo ; Pixelorama Project" )
-current_dir = "C:/Users/Overloaded/Dropbox/Orama Founding Members/εταιρικα αρχεια/Godot Projects/Pixelorama"
-current_path = "C:/Users/Overloaded/Dropbox/Orama Founding Members/εταιρικα αρχεια/Godot Projects/Pixelorama/"
+current_dir = "C:/Users/boruok/Documents/GitHub/Pixelorama"
+current_path = "C:/Users/boruok/Documents/GitHub/Pixelorama/"
 
 [node name="ImportSprites" parent="." instance=ExtResource( 29 )]
+current_dir = "C:/Users/boruok/Documents/GitHub/Pixelorama"
+current_path = "C:/Users/boruok/Documents/GitHub/Pixelorama/"
 
 [node name="ExportDialog" parent="." instance=ExtResource( 39 )]
 
 [node name="ScaleImage" parent="." instance=ExtResource( 31 )]
+window_title = "Please Confirm..."
 
 [node name="PreferencesDialog" parent="." instance=ExtResource( 32 )]
 
 [node name="RotateImage" parent="." instance=ExtResource( 38 )]
+window_title = "Please Confirm..."
 
 [node name="OutlineDialog" parent="." instance=ExtResource( 33 )]
 visible = false
+window_title = "Please Confirm..."
 
 [node name="AboutDialog" parent="." instance=ExtResource( 34 )]
 
@@ -1751,6 +1757,7 @@ dialog_text = "You have unsaved changes. If you proceed, the progress you have m
 [node name="QuitDialog" type="ConfirmationDialog" parent="."]
 margin_right = 200.0
 margin_bottom = 70.0
+window_title = "Please Confirm..."
 resizable = true
 dialog_text = "Are you sure you want to exit Pixelorama?"
 
@@ -1776,6 +1783,8 @@ dialog_text = "This is an error message!"
 
 [node name="PaletteImportFileDialog" parent="." instance=ExtResource( 37 )]
 filters = PoolStringArray( "*.json ; JavaScript Object Notation", "*.gpl ; Gimp Palette Library", "*.png; Portable Network Graphics" )
+current_dir = "C:/Users/boruok/Documents/GitHub/Pixelorama"
+current_path = "C:/Users/boruok/Documents/GitHub/Pixelorama/"
 
 [node name="HSVDialog" parent="." instance=ExtResource( 44 )]
 
@@ -1798,6 +1807,7 @@ margin_right = 349.0
 margin_bottom = 88.0
 rect_min_size = Vector2( 250, 87.5 )
 popup_exclusive = true
+window_title = "Please Confirm..."
 dialog_text = "Autosaved backup for %s was found.
 Do you want to reload it?"
 [connection signal="mouse_entered" from="MenuAndUI/UI/CanvasAndTimeline/HViewportContainer/ViewportAndRulers/HorizontalRuler" to="MenuAndUI/UI/CanvasAndTimeline/HViewportContainer/ViewportAndRulers/HorizontalRuler" method="_on_HorizontalRuler_mouse_entered"]
